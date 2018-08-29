@@ -86,17 +86,25 @@ Akin to CourseElements, each program be assigned a logical formula that, if True
 
 ---
 
-#### Next steps and considerations
+#### More cases to consider
 
- * Tweaking the core program models involves getting Phil's buy-in
- *
+ * How does feedback work for when schools need to make new special programs?  (Ex Math has the "You are in-state" program, but Soc/Anth doesn't.)
+ * Transfer students?
+
 
 ---
-
 #### Sample update flow
 
 ![Foo](img/state_diagram.jpg)
 
+Updates should be managed by advisors, not EAB employees.
 
+---
 
+#### Next steps and considerations
+
+ * Tweaking the core program models involves getting Phil's buy-in
+ * Case brainstorming.  What difficult user flows can we imagine?
+
+---
 
