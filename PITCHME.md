@@ -64,6 +64,35 @@
 
 ---
 
+#### Managing assignment
+
+If we have multiple programs, we would need a scheduled job or on-import task to figure out how to assign a student to a program.  If they change their program in the SIS somehow, we need the rules to assign the student to a program that makes sense.
+
+But such a program is not guaranteed to exist.
+
+---
+
+#### Managing Assignment Proposal
+
+Akin to CourseElements, each program be assigned a logical formula that, if True, matches the student to that program.  If nothing matches, they go into the `is_default` program.
+
+---
+
+#### Cases to consider
+
+ * What happens when a Program gets deleted?
+ * Will these specialized Programs just get stale?  Who is responsible for keeping them current?
+ * Will we need a "is_locked" parameter on the student-program binding?  What happens if the student places into Math, chooses to join Math for Astronauts, and then her data changes s.t. the formulas would put her in Math for Geniuses?
+
+---
+
+#### Next steps and considerations
+
+ * Tweaking the core program models involves getting Phil's buy-in
+ *
+
+---
+
 #### Sample update flow
 
 ![Foo](img/state_diagram.jpg)
