@@ -11,7 +11,7 @@
 
 ## Sample flow
 
-![Foo](mockup.jpg)
+![Foo](img/mockup.jpg)
 
 This is why I am a server dev
 
@@ -19,24 +19,24 @@ This is why I am a server dev
 
 ## How the data structures work right now
 
-![Foo](current.jpg)
+![Foo](img/current.jpg)
 
 ---
 
 ## Option 1: assign multiple templates to a program
 
-![Foo](templating.jpg)
+![Foo](img/templating.jpg)
 
 ---
 
 ## Option 2: assign programs to a category
 
-![Foo](categorization.jpg)
+![Foo](img/categorization.jpg)
 
 ## Sample update flow
 
 
-![Foo](state_diagram.jpg)
+![Foo](img/state_diagram.jpg)
 
 
 
